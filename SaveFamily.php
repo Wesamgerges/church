@@ -11,13 +11,14 @@
 	    for($NoPersons=1;$NoPersons<=$_POST["NoPersons"];$NoPersons++){
 		    if(($_POST["FirstName".$NoPersons]=="")) break;
 		    $MemberId = $Save->InsertQuery
-		    ("INSERT INTO person (FirstName,LastName,Phone,DOF,Email,status)
-		                       VALUES ('".$_POST["FirstName".$NoPersons]."','".$_POST["LastName".$NoPersons]."','".$_POST["Phone".$NoPersons]."',
+		    ("INSERT INTO person (FirstName,LastName,native_name,Phone,DOF,Email,status)
+		                       VALUES ('".$_POST["FirstName".$NoPersons]."','".$_POST["LastName".$NoPersons]."','".$_POST["native_name".$NoPersons]."','".$_POST["Phone".$NoPersons]."',
 		                       '','".$_POST["Email".$NoPersons]."',".$_POST["Status".$NoPersons].");");
 			$Save->InsertQuery("INSERT INTO relations (FamilyId,MemberId,MemberShipType)
 		                       VALUES (".$FamilyID.",".$MemberId.",".$NoPersons.");");
 										   
 		}
-		echo "Saved";
+                $result = mysql_query("SET NAMES utf8");//the main trick
+		echo "Saved".$_POST["native_name1"];
 	}
 ?>
