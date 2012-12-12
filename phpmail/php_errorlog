@@ -1,0 +1,2 @@
+[14-Mar-2012 21:33:50] PHP Parse error:  syntax error, unexpected T_TRY in /home/compugf3/public_html/mail/phpmail/test_smtp_gmail_advanced.php on line 16
+[14-Mar-2012 21:48:43] PHP Parse error:  syntax error, unexpected T_ARRAY, expecting ')' in /home/compugf3/public_html/mail/phpmail/test_smtp_gmail_advanced.php on line 23

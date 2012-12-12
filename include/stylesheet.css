@@ -1,0 +1,241 @@
+.Formlabel{
+	font-weight: bold;
+	text-align: center;
+}
+.Formtxtbox{
+	border-style:solid;	
+	border-top: thick ;
+	border-right: thick;
+	border-left: thick;
+	
+	font-weight: bold;
+	font-size: 16px;
+}
+#Address{
+	border:thin dashed;
+}
+#parents{
+	border:thin dashed;
+}
+#childern{
+	border:medium dashed;
+}
+.status{
+	width: 30px;
+	border: #00ffff thin;
+	
+}
+li{
+	list-style-type:none;
+	
+}
+ul{
+	margin: 0px;
+	padding: 5px 0px 5px 0px;		
+	font-weight: bold;
+	font-size: 24px;	
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.highLight{
+	background: #EEEEEE;
+}
+.bold{
+	font-weight: bold;
+	font-size: 18px;	
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#searchResult{
+	width:350px;	
+	border: 1px solid gray;
+	border-top-style: none;
+	
+	font-size: 24px;
+	background-color:#FFFFFF;
+	/*position: absolute;
+	z-index: 1000;
+	 top:0; left:0;
+	display: inline-block;
+	*/
+	position: absolute; 
+	top: 0; left: 0; 
+	/*z-index: 222;*/
+	-moz-box-shadow: 0px 1px 10px 1px #999;
+	-webkit-box-shadow: 0px 1px 10px 1px #999;
+	box-shadow: 0px 1px 10px 1px #999;
+
+}
+.outterSearchResult{
+	position: relative; 
+	width:350px;
+	
+	height: 100%;
+}
+#searchWord{
+	width:350px;	
+	height:30px;
+	border: 1px solid gray;
+	font-size: 24px;
+	font-weight: bold;
+	overflow: hidden;
+	/*position: relative;*/
+}
+input{
+		font-family: Arial, Helvetica, sans-serif;
+		
+	}
+.attend{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	background-color: #00FFFF;
+	height: 50px;
+	width: 200px;	
+}
+
+.personAttend{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	text-align: left;	
+	padding: 5px;	
+}
+.attended{
+	width: 110%;
+	color:#00AA00;
+	background-image: url('../images/cheched.gif');
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.checkbox{
+	width:30px;
+	height:30px;	
+}
+
+.meeting{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+	text-align: center;	
+	padding: 15px;	
+}
+
+.displayInfo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;	
+	padding: 15px;	
+	
+}
+.listAllMembers{
+	border: 1px solid gray;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+	padding: 5px;
+	width:100%;	
+	height:310px;
+	overflow:auto;
+}
+.listMember{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: left;	
+
+	width:100%;
+	padding: 5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.listMember:hover{
+	border: 1px solid gray;
+	background: #EEEEFF;
+	cursor: hand;	
+}
+.showInfo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: right;
+	display: none;
+	text-decoration: none;
+}
+
+.listMember:hover div {
+	display: inline;		
+}
+.servant{
+	color: green;
+}
+.alphbet{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.floating{
+	position: absolute;
+	z-index: 5;
+	width: 40%;
+	height: 40%;
+	left: 35%;
+	top: 25%;
+	background: white;
+	-moz-box-shadow: 0px 1px 10px 1px #999;
+	-webkit-box-shadow: 0px 1px 10px 1px #999;
+	box-shadow: 0px 1px 10px 1px #999;
+}
+.attendanceTable{	
+	/*border: #00ffff thin;*/
+	border-collapse:collapse;
+	border: 1px solid gray;	
+	padding: 10px;
+	
+}
+.attendanceHeader{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 15px;
+	font-weight:bold;
+	text-align: left;
+	/*
+	border: 1px solid gray;
+	background-color: #DDD;
+	*/
+}
+.attendanceCell{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	border: 1px solid gray;
+	padding: 15px;
+}
+
+.mainIcons{
+	
+	
+}
+
+
+.mainIcons:hover{
+	border: 1px solid gray;
+	background-color: #DDD;
+}
+
+.mainIconLink{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: blue;
+}
+.mainIconLink:visited{
+	color: blue;
+}
+
+
+
+.tabledata{ background-color: #cfcfcf; }
+.highlighttabledata{ background-color: #f00; }

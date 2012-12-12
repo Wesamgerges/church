@@ -1,0 +1,8 @@
+[01-Mar-2012 14:21:50] PHP Parse error:  syntax error, unexpected ';' in /home/compugf3/public_html/church/displayAttendance.php on line 71
+[15-Mar-2012 22:47:35] PHP Fatal error:  Class 'Connection' not found in /home/compugf3/public_html/church/_posteddata.php on line 16
+[15-Mar-2012 23:09:48] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/compugf3/public_html/church/_posteddata.php on line 86
+[16-Mar-2012 11:00:15] PHP Parse error:  syntax error, unexpected ']' in /home/compugf3/public_html/church/_posteddata.php on line 21
+[17-Mar-2012 11:02:08] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/compugf3/public_html/church/MailingFunctions.php on line 44
+[20-Mar-2012 21:09:37] PHP Fatal error:  Call to undefined function  getallmeetings() in /home/compugf3/public_html/church/standalone.php on line 26
+[24-Mar-2012 20:13:35] PHP Fatal error:  Call to undefined function  getweeklymeetings() in /home/compugf3/public_html/church/SendEMail.php on line 36
+[22-Aug-2012 02:16:18] PHP Parse error:  syntax error, unexpected '<' in /home/compu524/public_html/church/MembersPhoneCheckList.php on line 39
