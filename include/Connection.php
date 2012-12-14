@@ -36,15 +36,11 @@ class Connection {
     public $Results = array();
 
     public function __construct() {
-        mysql_query('SET character_set_results=utf8');
-        mysql_query('SET names=utf8');
-        mysql_query('SET character_set_client=utf8');
-        mysql_query('SET character_set_connection=utf8');
-        mysql_query('SET character_set_results=utf8');
-        mysql_query('SET collation_connection=utf8_general_ci');
 
         $this->database = new DataBase();
-    }
+        mysql_query('SET character_set_client=utf8');
+        mysql_query('SET character_set_connection=utf8');
+      }
 
     public function Query($query = "") {
         $this->Results = array();
