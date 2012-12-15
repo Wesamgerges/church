@@ -59,9 +59,9 @@ if (!logged_in()) {
                             </tr> 
                             <tr>
                                 <td>                                </td>
-                                <td class="Formlabel"> FirstName    </td>
-                                <td class="Formlabel"> LastName     </td>
-                                <td class="Formlabel"> NativeName   </td>                                
+                                <td class="Formlabel"> First Name    </td>
+                                <td class="Formlabel"> Last Name     </td>
+                                <td class="Formlabel"> Native Name   </td>                                
                                 <td class="Formlabel"> Cell Phone   </td>
                                 <td class="Formlabel"> Email        </td>
                                 <td class="Formlabel"> Status       </td>
@@ -82,9 +82,9 @@ if (!logged_in()) {
                             </tr> 
                             <tr>
                                 <td>                                </td>
-                                <td class="Formlabel"> FirstName    </td>
-                                <td class="Formlabel"> LastName     </td>
-                                <td class="Formlabel"> Cell Phone   </td>
+                                <td class="Formlabel"> First Name    </td>
+                                <td class="Formlabel"> Last Name     </td>
+                                <td class="Formlabel"> Native Name   </td>                                                                <td class="Formlabel"> Cell Phone   </td>
                                 <td class="Formlabel"> Email        </td>
                                 <td class="Formlabel">              </td>
                             </tr>   
@@ -112,9 +112,9 @@ if (!logged_in()) {
                             </tr> 
                             <tr>
                                 <td>                                </td>
-                                <td class="Formlabel"> FirstName    </td>
-                                <td class="Formlabel"> LastName     </td>
-                                <td class="Formlabel"> Cell Phone   </td>
+                                <td class="Formlabel"> First Name    </td>
+                                <td class="Formlabel"> Last Name     </td>
+                                <td class="Formlabel"> Native Name   </td>                                                                <td class="Formlabel"> Cell Phone   </td>
                                 <td class="Formlabel"> DOF          </td>
                                 <td class="Formlabel"> Email        </td>
                                 <td class="Formlabel"> Status       </td>
